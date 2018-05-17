@@ -1,6 +1,5 @@
 # remote-reveal
-Web application to remotely reveal a number on another device
-
+Web application to remotely reveal a numeric milestone on another device
 
 # Why I made this
 I was asked by a friend on short notice if I knew of a way to reveal the number of food servings packed during a Kids Against Hunger event... The catch being that the number wouldn't be known until almost immediately before it was displayed to the audience. I couldn't find anything that was dynamic enough to handle being given the number after already being fullscreen, so I decided to make something myself as a 24-hour challenge.
