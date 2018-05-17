@@ -1,0 +1,24 @@
+nav .navbar .bg-dark {
+    background: none;
+}
+
+.carousel-inner {
+    background: url("../img/backgrounds/dark_mosaic/dark_mosaic.png");
+}
+
+.carousel-item {
+    color: #fff;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: opacity .15s ease-in-out;
+}
+
+.clickable:hover {
+    opacity: .6;
+}
+
+.clickable:active {
+    opacity: .4;
+}

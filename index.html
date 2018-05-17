@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Number Reveal</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/bandit.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./">Home</a>
+        </div>
+    </nav>
+
+    <header>
+        <div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-12 text-center my-auto">
+                                <h1 class="mt-5">Is this device the...</h1>
+                            </div>
+                            <div class="col-sm-6 text-center clickable" id="remote">
+                                <i class="fa fa-mobile" aria-hidden="true" style="font-size: 10em;"></i>
+                                <h2>Remote</h2>
+                            </div>
+                            <div class="col-sm-6 text-center clickable" id="projector">
+                                <i class="fa fa-television" aria-hidden="true" style="font-size: 10em;"></i>
+                                <h3>Projector</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-12 text-center my-auto">
+                                <h1 class="mt-5" id="joincode"></h1>
+                                <h1 class="mt-5" id="statusarea">Connecting...</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-12 text-center my-auto">
+                                <div id="bandit">
+                                    <div id="display">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Four - Set the background image for this slide in the line below -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-xsm-6 text-center my-auto" style="margin: auto;">
+                                <div class="input-group">
+                                    <input id="codeinput" type="text" class="form-control" placeholder="Enter Code">
+                                </div>
+                                <div class="input-group" style="margin-top: 2rem;">
+                                    <input id="numberinput" type="text" class="form-control" placeholder="Enter Number to Display">
+                                </div>
+                                <button id="codesubmit" class="btn btn-primary btn-lg" style="margin-top: 2rem;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Five - Set the background image for this slide in the line below -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-4 text-center my-auto" style="margin: auto;">
+                                <button id="spin" class="btn btn-primary btn-lg" style="width: 100%;">Spin</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/projector.js"></script>
+    <script src="js/remote.js"></script>
+    <script src="js/bandit.js"></script>
+
+</body>
+
+</html>
